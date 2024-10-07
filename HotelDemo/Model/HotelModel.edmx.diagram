@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3330deca06e3449ba93579b9ed89764d" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelDbModel.Booking" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Category" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Client" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Floor" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Role" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Room" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.Status" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbModel.User" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="HotelDbModel.FK_Booking_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_Booking_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_Booking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_Room_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_Room_Floor" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbModel.FK_Room_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
